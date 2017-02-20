@@ -8,10 +8,9 @@ a {
   text-align: center; }
 
 .contact-icons {
+  padding-top: 10px;
   display: inline-block;
   margin: 10% auto;
-  padding-left: 35%;
-  padding-right: 35%;
   width: 150px; }
 
 .c-icon {
@@ -40,7 +39,7 @@ a {
 
 .c-link {
   position: relative;
-  color: #bbb; }
+  color: #333; }
 
 .c-link:not(:last-of-type) {
   margin-right: 15px; }

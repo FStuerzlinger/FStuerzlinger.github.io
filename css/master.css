@@ -98,10 +98,9 @@ a {
   text-align: center; }
 
 .contact-icons {
+  padding-top: 10px;
   display: inline-block;
   margin: 10% auto;
-  padding-left: 35%;
-  padding-right: 35%;
   width: 150px; }
 
 .c-icon {
@@ -130,7 +129,7 @@ a {
 
 .c-link {
   position: relative;
-  color: #bbb; }
+  color: #333; }
 
 .c-link:not(:last-of-type) {
   margin-right: 15px; }
@@ -168,11 +167,21 @@ a {
   src: url("../font/Noway-Regular.otf") format("opentype"); }
 .content {
   width: 100%;
-  align-items: center; }
+  text-align: center; }
 
 .section {
   height: 100vh;
   width: 50%;
   margin: 0 auto; }
+
+.img-circle {
+  margin-top: 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; }
+
+.main-content {
+  font-size: 2vw;
+  margin-top: 10%; }
 
 /*# sourceMappingURL=master.css.map */
