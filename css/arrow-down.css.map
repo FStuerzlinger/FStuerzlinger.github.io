@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC;EACC,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;;AAEvB,eAAe;EACb,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;;AAEd,OAAO;EACL,cAAc,EAAE,kBAAkB;EAClC,iBAAiB,EAAE,kBAAkB;EACrC,SAAS,EAAE,kBAAkB;;;;IAI3B,SAAS,EAAE,aAAa;;IAExB,SAAS,EAAE,iBAAiB;;IAE5B,SAAS,EAAE,iBAAiB",
+"sources": ["../sass/arrow-down.sass"],
+"names": [],
+"file": "arrow-down.css"
+}
