@@ -10,12 +10,14 @@
 
 .content
   width: 100%
+  height: 100vh
   text-align: center
 
 .section
   height: 100vh
   width: 50%
   margin: 0 auto
+//  opacity: 0
 
 .img-circle
   margin-top: 10%
@@ -26,3 +28,16 @@
 .main-content
   font-size: 2vw
   margin-top: 10%
+
+.content-bottom
+  bottom: 0
+
+// For animating the items in on page load
+.is-visible
+  animation: sections 600ms ease-in forwards
+
+@keyframes sections
+  0%
+    opacity: 0
+  100%
+    opacity: 1

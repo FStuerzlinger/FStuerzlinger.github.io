@@ -1,7 +1,8 @@
 body {
   color: #333;
   font-family: "Noway";
-  font-weight: 100; }
+  font-weight: 100;
+  background: white; }
 
 .welcome-text {
   font-size: 4vw;
@@ -167,6 +168,7 @@ a {
   src: url("../font/Noway-Regular.otf") format("opentype"); }
 .content {
   width: 100%;
+  height: 100vh;
   text-align: center; }
 
 .section {
@@ -183,5 +185,17 @@ a {
 .main-content {
   font-size: 2vw;
   margin-top: 10%; }
+
+.content-bottom {
+  bottom: 0; }
+
+.is-visible {
+  animation: sections 600ms ease-in forwards; }
+
+@keyframes sections {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=master.css.map */
